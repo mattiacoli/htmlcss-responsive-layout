@@ -121,7 +121,7 @@ header {
 
     
     h3{
-      margin: 1.5rem 0;
+      margin: 1rem 0;
     }
 
 
@@ -205,6 +205,7 @@ footer{
   font-family: Montserrat, 'Helvetica Neue', sans-serif; ;
   background-color: var(--gb-primary);
   color: var(--gb-lighter);
+  font-size: 14px;
 
 
   .container-footer{
@@ -250,9 +251,18 @@ footer{
     padding-left: 2rem;
   }
 
+  .recepie-title h2{
+    font-size: 2.5rem ;
+  }
+
+  .recepie-title .hidden{
+    display: inline-block;
+  }
+
   .btn{
     padding: 0.5rem 3rem;
   }
+
 
   .banner .hidden{
     display:block;
@@ -267,9 +277,13 @@ footer{
     width: calc(100% / 12 * 8);
   }
 
+  .col-m-12{
+    width: 100%;
+  }
+
   .recepie-recap ul{
     display: flex;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;
   }
 
 
@@ -323,6 +337,10 @@ footer{
 
   .btn{
     padding: 0.5rem 1rem;
+  }
+
+  .recepie-title h2{
+    font-size: 3rem ;
   }
 
   footer .container-footer{
