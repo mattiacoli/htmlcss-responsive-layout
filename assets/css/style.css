@@ -144,11 +144,46 @@ header {
 /* banner */
 .banner{
   margin-top: 2rem;
+  margin-bottom: 2rem;
   text-align: center;
 
   img{
     width: 100%;
   }
+}
+
+/* presentation */
+#presentation{
+
+  h2{
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  hr{
+    display:block;
+    width: 5rem;
+    border: 1px solid var(--gb-accent);
+    margin-top: 1rem;  
+  }
+
+  .preview{
+    text-align: center;
+    padding: 2rem 0;
+  }
+
+  img{
+    max-width: 400px;   
+    box-shadow: 0 2px 3px var(--gb-light-dark); 
+    margin-bottom: 1rem;
+  }
+
+  p{
+    line-height: 1.5rem;
+    text-align: start;
+  }
+
+
 }
 
 
@@ -167,6 +202,7 @@ header {
 
   header{
     text-align: start;
+    padding-left: 2rem;
   }
 
 
@@ -186,9 +222,11 @@ header {
     justify-content: space-between;
   }
 
-
-
-
+  #presentation img{
+    float:left;
+    margin-right: 1rem;
+  
+  }
 
 }
 
