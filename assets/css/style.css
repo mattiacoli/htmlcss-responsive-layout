@@ -238,7 +238,7 @@ footer{
 
 
   .hidden{
-    display:inline-block;
+    display:block;
   }
 
 
@@ -277,11 +277,21 @@ footer{
 
   .col-lg-5{
     width: calc(100% / 12 * 5);
+   
+  }
+
+  .col-lg-5 .recepie-recap{
+    height: 100%;
+  }
+
+  .col-lg-5 .recepie-recap ul{
+    display: block;
+    
   }
 
   footer .container-footer{
-    width: 100%;
 
+    width: 100%;
     display: flex;
     justify-content: space-between ;
     align-items: center;
@@ -289,10 +299,11 @@ footer{
 
 
 
-  .container-footer .right-foot,
+
   .container-footer .left-foot{
     text-align: start;
   }
+
 
   
   
