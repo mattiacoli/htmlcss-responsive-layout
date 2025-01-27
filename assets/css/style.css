@@ -28,6 +28,14 @@ main{
   margin:auto
 }
 
+.btn{
+  padding: 0.5rem 1rem;
+  background-color: var(--gb-lighter);
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0px 1px 10px var(--gb-light-dark);
+}
+
 /* utilities */
 .bg-lighter{
   background-color: var(--gb-lighter);
@@ -36,6 +44,8 @@ main{
 .d-flex{
   display: flex;
 }
+
+
 
 
 /* Header */
@@ -54,6 +64,8 @@ header {
   }
 
 /* Main */
+
+/* recepie */
 
 #recepie{
 
@@ -105,11 +117,15 @@ header {
       line-height: 2rem;
     }
   }
-
-
-
 }
 
+/* button */
+
+#social-btn{
+  .d-flex{
+    justify-content: space-between;
+  }
+}
 
 
 
