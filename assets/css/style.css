@@ -33,6 +33,10 @@ main{
   background-color: var(--gb-lighter);
 }
 
+.d-flex{
+  display: flex;
+}
+
 
 /* Header */
 
@@ -71,7 +75,7 @@ header {
     margin-bottom: 1rem;
 
 
-    span{
+   .hidden-title {
       display:none;
     }
   }
@@ -123,6 +127,20 @@ header {
   header{
     text-align: start;
   }
+
+
+
+
+  .recepie-recap ul{
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 1.5rem; 
+ 
+  }
+
+
+
+
 
 }
 
