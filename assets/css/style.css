@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Commons */
+
+:root{
+  --gb-primary:#7c69a4;
+  --gb-accent:#ff9614;
+  --gb-light-dark:#b2b0b9;
+  --gb-lighter:#ffff;
+  --gb-light-bkg:#f6f5f3;
+}
+
+body{
+  background-color: var(--gb-light-bkg);
+}
+
+
+/* Header */
+
+header{
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Nerko One' , cursive;
+  color: var(--gb-accent);
+  background-color:var(--gb-lighter) ;
+  padding: 1rem;
+  text-transform:uppercase;
+  text-shadow: 1px 0px 4px #b2b0b9;
+
+}
+
