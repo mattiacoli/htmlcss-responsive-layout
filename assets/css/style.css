@@ -24,7 +24,7 @@ main{
 }
 
 .container{
-  width: 90%;
+  width: 95%;
   margin:auto;
 }
 
@@ -183,8 +183,9 @@ header {
     text-align: start;
   }
 
-
 }
+
+/* #endregion Main */
 
 
 
@@ -199,6 +200,10 @@ header {
 /* Tablet view */
 
 @media screen and (min-width:768px){
+
+  .container{
+    width: 85%;
+  }
 
   header{
     text-align: start;
