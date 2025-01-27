@@ -187,7 +187,34 @@ header {
 
 /* #endregion Main */
 
+/* Footer */
+footer{
+  font-family: Montserrat, 'Helvetica Neue', sans-serif; ;
+  background-color: var(--gb-primary);
+  color: var(--gb-lighter);
 
+
+  .container-footer{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    line-height:2rem;
+    padding: 1rem 2rem;
+  }
+
+  .credits{
+    font-weight: 700;
+  }
+
+  .right-foot{ 
+
+    a{
+      padding-left: 1rem;
+      color: var(--gb-lighter);
+    }
+
+  }
+}
 
 
 
