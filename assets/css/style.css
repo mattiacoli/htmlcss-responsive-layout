@@ -8,6 +8,7 @@
 
 :root {
   --gb-primary: #7c69a4;
+  --gb-primary-dark:#4e3969;
   --gb-accent: #ff9614;
   --gb-light-dark: #b2b0b9;
   --gb-lighter: #ffff;
@@ -18,10 +19,25 @@ body {
   background-color: var(--gb-light-bkg);
 }
 
+main{
+  font-family: Montserrat, 'Helvetica Neue', sans-serif;
+}
+
+.container{
+  width: 90%;
+  margin:auto
+}
+
+/* utilities */
+.bg-lighter{
+  background-color: var(--gb-lighter);
+}
+
 
 /* Header */
 
 header {
+
     font-size: 1.5rem;
     text-align: center;
     font-family: 'Nerko One', cursive;
@@ -30,7 +46,62 @@ header {
     padding: 1rem;
     text-transform: uppercase;
     text-shadow: 1px 0px 4px #b2b0b9;
+    margin-bottom: 2rem;
   }
+
+/* Main */
+
+#recepie{
+
+  .categories, .recepie-title{
+    margin-left: -1rem;
+  }
+
+  .categories{
+    text-transform: uppercase;
+    color: var(--gb-light-dark);
+    font-size: 1rem;
+  }
+
+  .recepie-title{ 
+
+    color: var(--gb-primary-dark);
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+
+
+    span{
+      display:none;
+    }
+  }
+
+  .video{
+    padding-bottom: 0;
+    
+    img{
+      display: block;
+    }
+
+  }
+
+  .recepie-recap{
+
+
+    h3{
+      margin: 1.5rem 0;
+    }
+
+    ul{
+      list-style: none;
+      line-height: 2rem;
+    }
+  }
+
+
+
+}
+
 
 
 
